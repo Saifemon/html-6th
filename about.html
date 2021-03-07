@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>About Page</title>
+
+</head>
+<body>
+
+	<h1>This is About Page</h1>
+	<div>
+		<ul>
+			<li><a href="index.html" target="_blank">Home</a></li>
+			<li><a href="about.html" target="_blank">About</a></li>
+			<li><a href="https://www.facebook.com/saifemon.rp/" target="_blank">Facebook</a></li>
+			<li><a href="https://www.linkedin.com/in/saifemon-rp/" target="_blank">Linkedin</a></li>
+			<li><a href="https://twitter.com/saifemon_rp" target="_blank">Twitter</a></li>
+		</ul>
+
+	</div>
+
+	<!--======Form Element======-->
+
+	<h6>Form Element Here</h6>/action_page.php
+	<form action="/action_page.php">
+		<label for="fname">First Name</label>
+	    <input type="text" id="fname" name="fname"><br><br>
+	    <label for="lname">Last Name</label>
+	    <input type="text" id="lname" name="lname"><br><br>
+	    <input type="submit" value="Submit">
+	</form>
+
+	<h6>Form element with Radio Buttons</h6>
+	<form action="/action_page.php">
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Other</label><br><br>
+		<input type="submit" value="Submit">
+	</form>
+
+	<h6>Form Element with Checkbox</h6>
+	<form action="/action_page.php">
+		<input type="checkbox" name="vehicle1" value="Bike">
+		<label for="vehicle1">I have a Bike</label><br>
+		<input type="checkbox" name="vehicle2" value="Car">
+		<label for="vehicle2">I have a Car</label><br>
+		<input type="checkbox" name="vehicle3" value="boat">
+		<label for="vehicle3">I have a Boat</label><br><br>
+		<input type="submit" value="Submit">
+	</form>
+
+	<!--======Header Element======-->
+
+	<h6>Header Element</h6>
+	<article>
+		<header>
+			<h1>This is Heading</h1>
+			<p>Lorem ipsum dolor sit amet.</p>
+		</header>
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Magnam, quis.</p>
+	</article>
+
+	<!--======Kbd Element======-->
+
+	<h6>Kbd Element</h6>
+	<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+	<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+	<!--======Code Element======-->
+
+	<h6>Code Element</h6>
+	<p>Lorem ipsum dolor, sit amet <code>consectetur</code> adipisicing, elit. Dolores, <code>laborum ut sunt sint</code> tempora eaque vero neque beatae suscipit, fugiat?</p>
+	<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+	<!--======Samp Element======-->
+
+	<h6>Samp Element</h6>
+	<P>Message from my computer:</P>
+	<p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+	<!--======Var Element======-->
+
+	<h6>Var Element</h6>
+	<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+	<!--======Label Element======-->
+
+	<h6>Label Element</h6>
+
+	<form action="/action_page.php">
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="Male">Male</label>
+		<input type="radio" name="gender" id="female" value="female">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="other" value="other">
+		<label for="other">Other</label><br><br>
+		<input type="submit" value="Submit">
+	</form>
+
+	<!--======Fieldset and Legend Element======-->
+
+	<h6>Fieldset & Legend Element</h6>
+
+	<form action="/action_page.php">
+		<fieldset>
+		   <legend>Personalia:</legend>
+		   <label for="fname">First Name:</label>
+		   <input type="text" name="fname" id="fname"><br><br>
+		   <label for="lname">Last Name:</label>
+		   <input type="text" name="lname" id="lname"><br><br>
+		   <label for="email">Email:</label>
+		   <input type="email" name="email" id="email"><br><br>
+		   <label for="birthday">Birthday:</label>
+		   <input type="date" name="birthday" id="birthday"><br><br>
+		   <input type="submit" value="submit">
+		</fieldset>
+	</form>
+
+	<!--=====Main Element======-->
+
+	<h6>Main Element</h6>
+
+	<main>
+		<h3>Most Popular Browsers</h3>
+		<p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+		<article class="browser">
+			<h4>Google Chrome</h4>
+			<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+		</article>
+
+		<article class="browser">
+			<h4>Mozilla Firefox</h4>
+			<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+		</article>
+
+		<article class="browser">
+			<h4>Microsoft Edge</h4>
+			<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+		</article>
+
+	</main>
+
+	<!--======Meter Element======-->
+
+	<h6>Meter Element</h6>
+
+	<label for="disk_c">Disk usage C:</label>
+	<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+	<label for="disk_d">Disk usage D:</label>
+	<meter id="disk_d" value="0.6">60%</meter>
+
+	<!--======Nav Element======-->
+
+	<h6>nav Element</h6>
+
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="https://www.facebook.com/saifemon.rp/">Facebook</a>
+		<a href="https://github.com/Saifemon">Github</a>
+	</nav>
+
+	<!--======Noscript/Script Element======-->
+
+	<h6>Script/Noscript Element</h6>
+
+	<p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+	<script>document.write("Hello! world.")</script>
+	<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+	<!--======Object Element======-->
+
+	<h6>Object Element</h6>
+
+	<object data="images/horse.jpg" width="400" height="300"></object><br><br>
+	<object data="video/laptop.mp4"></object>
+
+	<!--======Object Element======-->
+
+	<h6>Ol Element</h6>
+
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<ol start="50">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milj</li>
+	</ol>
+
+	<ol style="list-style-type: upper-armenian;">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<ol style="list-style-type: upper-roman;">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<ol style="list-style-type:lower-alpha;">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk</li>
+	</ol>
+
+	<!--======Object Element======-->
+
+	<h6>Option Element</h6>
+
+	<label for="cars">Choose a Car:</label>
+	<select id="cars">
+		<option value="volvo">Volvo</option>
+		<option value="saab">Saab</option>
+		<option value="opel">Opel</option>
+		<option value="audi">Audi</option>
+	</select>
+
+
+	<!--======Optgroup Element======-->
+
+	<h6>Optgroup Element</h6>
+
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+	<form action="/action_page.php">
+		<label for="cars">Choose a Car:</label>
+		<select id="cars" name="cars">
+			<optgroup label="Swedish Car">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+			</optgroup>
+
+			<optgroup label="German Car">
+				<option value="opel">Opel</option>
+				<option value="audi">Audi</option>
+			</optgroup>
+		</select>
+	</form>
+
+	<!--======Datalist Element======-->
+
+	<h6>Datalist Element</h6>
+
+	<form action="/action_page.php">
+		<label for="browsers">Choose your browser from the list:</label>
+		<input list="browsers" name="browser" id="browser">
+		<datalist id="browsers">
+			<option value="Edge">
+			<option value="Firefox">
+			<option value="Chrome">
+			<option value="Opera">
+			<option value="Safari">
+		</datalist>
+		<input type="submit">
+	</form>
+	<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+	<!--======Pre Element======-->
+
+	<h6>Pre Element</h6>
+
+	<pre>Text in a pre element 
+is displayed in a fixed-width 
+font, and it preserves
+both      spaces andline breaks</pre>
+
+    
+    <!--======Progress Element======-->
+    <h6>Progress Element</h6>
+     <label for="file">Downloading progress:</label>
+     <progress id="file" value="32" max="100" >32%</progress>
+
+    <!--======Progress Element======-->
+
+    <h6>Quotation (Q) Element</h6>
+
+    <p>Lorem ipsum dolor sit, amet.
+    <q>WWF's goal is to: Build a future where people live in harmony with nature. We hope they succeed.</q></p>
+
+    <!--======Progress Element======-->
+
+    <h6>The S Element</h6>
+    <p><s>Only 50 tickets left!</s></p>
+    <p>Sold Out</p>
+
+    <!--======Small Element======-->
+
+    <h6>Small Element</h6>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, obcaecati sed, nesciunt quibusdam vero odit eligendi consequuntur ea fugit tenetur.</p>
+    <p><small>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Assumenda adipisci iusto earum dolor eum tempora animi natus recusandae nemo architecto!</small></p>
+
+
+    <!--======Sub & Sup Element======-->
+
+    <h6>Sub & Sup Element</h6>
+    <p>This is <sub>Subscript</sub> Text</p>
+    <p>H<sub>2</sub>O</p>
+    <p>This is <sup>Superscipt</sup> Text</p>
+    <p>(a<sup>2</sup>-b<sup>2)</sup></p>
+
+    <!--======Summary Element======-->
+
+    <h6>Summary Element</h6>
+
+    <details>
+    	<summary>This is Summary</summary>
+    	<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum in nihil, harum est exercitationem fugiat corporis, velit aspernatur accusantium totam ducimus voluptas, ratione, alias nisi! Qui cupiditate magnam incidunt impedit.</p>
+    </details>
+
+
+
+
+
+
+
+
+</body>
+</html>
